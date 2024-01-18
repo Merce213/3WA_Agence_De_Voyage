@@ -10,9 +10,57 @@
 
         <meta name="og:title" content="Mon projet Fil Rouge" />
 
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/main.min.css" />
 
         <script src="js/script.js" defer></script>
     </head>
-    <body></body>
+    <body>
+        <header></header>
+        <main>
+            <section>
+                <div>
+                    <h3>Contact</h3>
+                    <div class="contact_container">
+                        <form action="#" method="post" class="contact_form">
+                            <div class="contact_form_item">
+                                <input
+                                    type="text"
+                                    name="name"
+                                    placeholder="Nom"
+                                    class="contact_form_input"
+                                />
+                            </div>
+                            <div class="contact_form_item">
+                                <input
+                                    type="text"
+                                    name="firstname"
+                                    placeholder="Prénom"
+                                    class="contact_form_input"
+                                />
+                            </div>
+                            <div class="contact_form_item">
+                                <input
+                                    type="email"
+                                    name="email"
+                                    placeholder="Email"
+                                    class="contact_form_input"
+                                />
+                            </div>
+                            <div class="contact_form_item">
+                                <textarea
+                                    name="message"
+                                    class="textarea contact_form_input"
+                                    placeholder="Votre message"
+                                ></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" value="Envoyer" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer></footer>
+    </body>
 </html>
