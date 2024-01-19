@@ -1,0 +1,30 @@
+header {
+    background-image: url('/images/header-image.jpg'); 
+    background-size: cover;
+  }
+  
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+  height: auto;
+}
+  
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  }
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: justify;
+}
+.icon {
+  }
