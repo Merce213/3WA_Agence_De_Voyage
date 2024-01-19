@@ -1,0 +1,35 @@
+.contact-title {
+    padding: 1.25rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: $fontAutour;
+    color: $colorBlack;
+}
+
+.contact-container {
+    padding: 1rem 1.75rem;
+    background-color: $colorGrey;
+    margin-bottom: 2.5rem;
+}
+
+.contact-form-item {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form-input {
+    font-size: $fontXSmall;
+    height: 2.75rem;
+    line-height: 2.75rem;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.contact-form-textarea {
+    font-size: $fontXSmall;
+    resize: none;
+    height: 205px;
+    padding: 0.75rem 1rem;
+    line-height: 1rem;
+    width: 100%;
+}
