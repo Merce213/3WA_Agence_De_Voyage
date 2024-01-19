@@ -1,0 +1,36 @@
+/****** Presentation *********/
+
+.page-titles {
+    padding: 1.25rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: $fontAutour;
+    color: $colorBlack;
+}
+
+.presentation img {
+    max-width: 3em;
+    height: auto;
+}
+
+.presentation {
+    font-family: $fontJunge;
+    color: $colorBlack;
+}
+.ratings {
+    padding: 3rem;
+    background-color: $colorBlue;
+    color: $colorWhite;
+    font-family: $fontJunge;
+}
+
+.ratings-title {
+    padding-bottom: 1em;
+    font-size: larger;
+    font-style: italic;
+}
+
+.ratings img {
+    max-width: 5em;
+}

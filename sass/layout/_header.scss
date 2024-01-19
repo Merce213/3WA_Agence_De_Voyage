@@ -1,30 +1,96 @@
+/********* Header ********/
+
 header {
-    background-image: url('/images/header-image.jpg'); 
+    background-image: url("/images/header-image.jpg");
     background-size: cover;
-  }
-  
+    height: auto;
+    max-width: 100%;
+    padding-bottom: 20rem;
+}
+
+.icon {
+    color: $colorBlue;
+}
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo img {
-  max-width: 100px;
-  height: auto;
+    max-width: 3em;
+    height: auto;
 }
-  
+
 .header-icons {
-  display: flex;
-  justify-content: space-between;
-  }
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
 
 .header-title {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
 }
-.icon {
-  }
+
+.destination-header {
+    padding: 1rem;
+    font-family: $fontAutour;
+    font-size: 1.5em;
+    color: #ffdada;
+}
+
+.slogan {
+    font-size: 1em;
+}
+
+.btn-more {
+    background-color: transparent;
+    border: 1px solid;
+    font-family: $fontJunge;
+    font-size: $fontXSmall;
+    line-height: 2.75rem;
+    padding: 0;
+    max-width: 20%;
+}
+
+/****** Presentation *********/
+
+.page-titles {
+    padding: 1.25rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: $fontAutour;
+    color: $colorBlack;
+}
+
+.presentation img {
+    max-width: 3em;
+    height: auto;
+}
+
+.presentation {
+    font-family: $fontJunge;
+    color: $colorBlack;
+}
+.ratings {
+    padding: 3rem;
+    background-color: $colorBlue;
+    color: $colorWhite;
+    font-family: $fontJunge;
+}
+
+.ratings-title {
+    padding-bottom: 1em;
+    font-size: larger;
+    font-style: italic;
+}
+
+.ratings img {
+    max-width: 5em;
+}
