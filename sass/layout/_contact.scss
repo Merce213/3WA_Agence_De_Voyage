@@ -18,7 +18,9 @@
 }
 
 .contact-form-input {
+    font-family: $fontJunge;
     font-size: $fontXSmall;
+    font-weight: 600;
     height: 2.75rem;
     line-height: 2.75rem;
     padding: 0 1rem;
@@ -26,7 +28,9 @@
 }
 
 .contact-form-textarea {
+    font-family: $fontJunge;
     font-size: $fontXSmall;
+    font-weight: 600;
     resize: none;
     height: 205px;
     padding: 0.75rem 1rem;
